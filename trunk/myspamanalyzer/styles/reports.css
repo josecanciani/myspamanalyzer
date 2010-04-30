@@ -1,0 +1,146 @@
+   body {
+   	  padding: 10px;
+   	  margin: 10px;
+   	  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+   }
+   #formcontainer {
+      width: 1000px;
+	  margin: 0 auto;
+	  padding: 5px;
+	  font-family: Verdana, Arial, Helvetica, sans-serif;
+	  font-size: 10px;
+	  line-height: 1.6em;
+	  background-color: #FFFFFF;   	
+   }
+   #reportcontainer {
+   	  width: 1000px;
+	  margin: 0 auto;
+	  padding: 5px;
+	  font-family: Verdana, Arial, Helvetica, sans-serif;
+	  font-size: 10px;
+	  line-height: 1.6em;
+	  background-color: #FFFFFF;  	
+   }
+   
+   #daily  {
+   	  float: left;  
+   	  width: 300px;
+   	  border: 1px solid red;
+	  text-align: center;
+	  position: relative;
+   }
+   #monthly  {
+   	  float: left;
+   	  width: 300px;
+   	  border: 1px solid red;
+   	  margin-left: 10px;
+	  text-align: center;
+	  position: relative;
+   }
+   #yearly  {
+   	  float: left;
+   	  width: 300px;
+   	  border: 1px solid red;
+   	  margin-left: 10px;
+	  text-align: center;
+	  position: relative;
+   }
+   #daily-form  {
+   	  float: left;  
+   	  width: 300px;
+   	  border: 1px solid black;
+	  text-align: center;
+   }
+   #monthly-form  {
+   	  float: left;
+   	  width: 300px;
+   	  border: 1px solid black;
+   	  margin-left: 10px;
+	  text-align: center;
+   }
+   #yearly-form  {
+   	  float: left;
+   	  width: 300px;
+   	  border: 1px solid black;
+   	  margin-left: 10px;
+	  text-align: center;
+   }
+   .textinput {
+   	  width: 70px;   
+   	  font-size: 10px;
+ 	  background-color: #FFFFFF;
+      border: 1px solid #666666;
+      margin: 5px; 
+ 	  padding: 0px;
+	  text-align: center;
+   }
+   .submitinput {
+   	  font-size: 10px;
+ 	  background-color: #FFFFFF;
+ 	  border: 1px solid #666666;
+ 	  margin: 5px; 
+ 	  padding: 0px;
+   }   
+   .errortext {
+	  color: red;
+	  font-weight: bold;
+	  clear: both;    		
+   }
+   table {
+   	  border: 0;
+	  margin: 0 auto;
+	  padding: 0px;
+	  margin-top: 20px;
+	  margin-bottom: 10px;	  
+	  font-family: Verdana, Arial, Helvetica, sans-serif;
+	  font-size: 10px;
+	  line-height: 1.6em;
+	  background-color: #FFFFFF;
+	  text-align: left;  	
+   }
+   th {
+   	  font-weight: bold;
+	  text-align: center;
+   }
+   td.number {
+   	  text-align: right;
+   }
+   .closediv {
+   	  position:absolute;
+	  right: 2px;
+	  top: 2px;
+	  display: inline;
+	  padding: 0;
+   }
+   img {
+   	  border: 0;
+   }
+   h1 {
+      font-size: larger;
+	  clear: both;
+	  text-align: center;   	 
+   }
+   h3 {
+   	  font-size: 10px;
+	  clear: both;
+	  text-align: center;
+	  margin-bottom: 0px;
+   }
+   div.graph {
+   	  margin-top: 0px;
+	  margin-bottom: 10px;
+	  text-align: center;
+   }
+   
+   /****************************** hacks *********************************/
+	.clearfix:after {
+	    content: "."; 
+	    display: block; 
+	    height: 0; 
+	    clear: both; 
+	    visibility: hidden;
+	}
+
+	/* Hides from IE-mac \*/
+	* html .clearfix {height: 1%;}
+	/* End hide from IE-mac */
